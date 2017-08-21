@@ -389,7 +389,7 @@
  number={1}, 
  pages={414-454}, 
  abstract={As we are moving towards the Internet of Things (IoT), the number of sensors deployed around the world is growing at a rapid pace. Market research has shown a significant growth of sensor deployments over the past decade and has predicted a significant increment of the growth rate in the future. These sensors continuously generate enormous amounts of data. However, in order to add value to raw sensor data we need to understand it. Collection, modelling, reasoning, and distribution of context in relation to sensor data plays critical role in this challenge. Context-aware computing has proven to be successful in understanding sensor data. In this paper, we survey context awareness from an IoT perspective. We present the necessary background by introducing the IoT paradigm and context-aware fundamentals at the beginning. Then we provide an in-depth analysis of context life cycle. We evaluate a subset of projects (50) which represent the majority of research and commercial solutions proposed in the field of context-aware computing conducted over the last decade (2001-2011) based on our own taxonomy. Finally, based on our evaluation, we highlight the lessons to be learnt from the past and some possible directions for future research. The survey addresses a broad range of techniques, methods, models, functionalities, systems, applications, and middleware solutions related to context awareness and IoT. Our goal is not only to analyse, compare and consolidate past research work but also to appreciate their findings and discuss their applicability towards the IoT.}, 
- keywords={}, 
+ keywords={Privacy},
  doi={10.1109/SURV.2013.042313.00197}, 
  ISSN={1553-877X}, 
  month={First},
@@ -397,11 +397,31 @@
 }
 
 
+%=============C019============
+@inproceedings{C019,
+ author = {Badraddin Alturki and Stephan Reiff-Marganiec and Charith Perera},
+ title = {A Hybrid Approach for Data Analytics for Internet of Things},
+ booktitle = {Proceedings of the 7th International Conference on the Internet of Things},
+ series = {IoT'17},
+ year = {2017},
+ isbn = {},
+ location = {Linz, Austria},
+ pages = {},
+ numpages = {},
+ url = {},
+ doi = {},
+ acmid = {},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords={Internet of Things Architectures, Fog Computing,  Privacy},
+ abstract = {The vision of the Internet of Things is to allow currently unconnected physical objects to be connected to the internet. There will be an extremely large number of internet connected devices that will be much more than the number of human being in the world all producing data. These data will be collected and delivered to the cloud for processing, especially with a view of finding meaningful information to then take action. However, ideally the data needs to be analysed locally to increase privacy, give quick responses to people and to reduce use of network and storage resources. To tackle these problems, distributed data analytics can be proposed to collect and analyse the data either in the edge or fog devices. In this paper, we explore a hybrid approach which means that both innetwork level and cloud level processing should work together to build effective IoT data analytics in order to overcome their respective weaknesses and use their specific strengths. Specifically, we collected raw data locally and extracted features by applying data fusion techniques on the data on resource constrained devices to reduce the data and then send the extracted features to the cloud for processing. We evaluated the accuracy and data consumption over network and thus show that it is feasible to increase privacy and maintain accuracy while reducing data communication demands.},
+
+
 %=============C018============
 @inproceedings{C018,
  author = {Perera, Charith and Vasilakos, Athanasios},
  title = {Privacy Mindset for Developing Internet of Things Applications for Social Sensing: Software Engineering Challenges},
- booktitle = {Proceedings of the 2Nd International Workshop on Social Sensing},
+ booktitle = {Proceedings of the 2nd International Workshop on Social Sensing},
  series = {SocialSens'17},
  year = {2017},
  isbn = {978-1-4503-4977-2},
@@ -413,7 +433,8 @@
  acmid = {3055621},
  publisher = {ACM},
  address = {New York, NY, USA},
- keywords = {},
+ keywords={Privacy},
+ keywords={Software Engineering},
  abstract = {Social sensing aims to collect sensory data by using human population as sensor carriers (e.g., location), sensor operators (e.g., taking photos), and sensors themselves (e.g., Twitter). The Internet of Things (IoT) applications facilitate social sensing tasks. However, designing and developing IoT applications is much more complicated than designing and developing desktop, mobile, or web applications. The IoT applications require both software and hardware (e.g., sensors and actuators) to work together on multiple different type of nodes (e.g., micro-controllers, system-on-chips, mobile phones, single-board computers, cloud platforms) with different capabilities under different conditions.},
 }
 
@@ -431,7 +452,8 @@
  acmid = {3091184},
  publisher = {International Foundation for Autonomous Agents and Multiagent Systems},
  address = {Richland, SC},
- keywords = {},
+ keywords={Privacy},
+ keywords={Artificial Intelligence, Human Computer Interaction},
  abstract = {The digital economy is based on data sharing yet citizens have little control about how their personal data is being used. While data management during web and app-based use is already a challenge, as the Internet of Things (IoT) scales up, the number of devices ac-cessing and requiring personal data will go beyond what a person can manually assess in terms of data access requests. Therefore, new approaches are needed for managing privacy preferences at scale and providing active consent around data sharing that can improve fidelity of operation in alignment with user intent. To address this challenge, we introduce a novel agent-based approach to negotiate the permission to exchange private data between users and services. Our agent negotiates based on learned preferences from actual users. To evaluate our agent-based approach, we developed an experimental tool to run on people's own smartphones, where users were asked to share their private, real data (e.g. photos, contacts , etc) under various conditions. The agent autonomously negotiates potential agreements for the user, which they can refine by manually continuing the negotiation. The agent learns from these interactions and updates the user model in subsequent interactions. We find that the agent is able to effectively capture the preferences and negotiate on the user's behalf but, surprisingly, does not reduce user engagement with the system. Understanding how interaction interplays with agent-based automation is a key component to successful deployment of negotiating agents in real-life settings and within the IoT context in particular. An Automated Negotiation Agent for Permission Management.},
 }
 
@@ -451,7 +473,8 @@
  acmid = {3007867},
  publisher = {ACM},
  address = {New York, NY, USA},
- keywords = {},
+ keywords={Internet of Things Architectures},
+ keywords={Search and Discovery},
  abstract = {Over the last few years, the number of smart objects connected to the Internet has grown exponentially in comparison to the number of services and applications. The integration between Cloud Computing and Internet of Things, named as Cloud of Things, plays a key role in managing the connected things, their data and services. One of the main challenges in Cloud of Things is the resource discovery of the smart objects and their reuse in different contexts. Most of the existent work uses some kind of multi-criteria decision analysis algorithm to perform the resource discovery, but do not evaluate the impact that the user constraints has in the final solution. In this paper, we analyse the behaviour of the SAW, TOPSIS and VIKOR multi-objective decision analyses algorithms and the impact of user constraints on them. We evaluated the quality of the proposed solutions using the Pareto-optimality concept.},
 }
 
@@ -471,7 +494,8 @@
  acmid = {2991566},
  publisher = {ACM},
  address = {New York, NY, USA},
- keywords = {},
+ keywords={Internet of Things Architectures, Privacy},
+ keywords={Software Engineering},
  abstract = {The Internet of Things (IoT) systems are designed and developed either as standalone applications from the ground-up or with the help of IoT middleware platforms. They are designed to support different kinds of scenarios, such as smart homes and smart cities. Thus far, privacy concerns have not been explicitly considered by IoT applications and middleware platforms. This is partly due to the lack of systematic methods for designing privacy that can guide the software development process in IoT. In this paper, we propose a set of guidelines, a privacy-by-design framework, that can be used to assess privacy capabilities and gaps of existing IoT applications as well as middleware platforms. We have evaluated two open source IoT middleware platforms, namely OpenIoT and Eclipse SmartHome, to demonstrate how our framework can be used in this way.},
 }
 
@@ -491,7 +515,8 @@
  acmid = {2897071},
  publisher = {ACM},
  address = {New York, NY, USA},
- keywords = {},
+ keywords={Internet of Things Architectures},
+ keywords = {Software Engineering, Privacy},
  abstract = {The Internet of Things (IoT) promises to deliver improved quality of life for citizens, through pervasive connectivity and quantified monitoring of devices, people, and their environment. As such, the IoT presents a major new opportunity for research in adaptive software engineering. However, there are currently no shared exemplars that can support software engineering researchers to explore and potentially address the challenges of engineering adaptive software for the IoT, and to comparatively evaluate proposed solutions. In this paper, we present Feed me, Feed me, an exemplar that represents an IoT-based ecosystem to support food security at different levels of granularity: individuals, families, cities, and nations. We describe this exemplar using animated videos which highlight the requirements that have been informally observed to play a critical role in the success or failure of IoT-based software systems. These requirements are: security and privacy, interoperability, adaptation, and personalisation. To elicit a wide spectrum of user reactions, we created these animated videos based on the ContraVision empirical methodology, which specifically supports the elicitation of end-user requirements for controversial or futuristic technologies. Our deployment of ContraVision presented our pilot study subjects with an equal number of utopian and dystopian scenarios, derived from the food security domain, and described them at the different level of granularity. Our synthesis of the preliminary empirical findings suggests a number of key requirements and software engineering research challenges in this area. We offer these to the research community, together with a rich exemplar and associated scenarios available in both their textual form in the paper, and as a series of animated videos (http://sead1.open.ac.uk/fmfm/).},
 }
 
@@ -506,7 +531,8 @@ author={Perera, Charith and Aghaee, Saeed and Blackwell, Alan},
  pages={25--41},
  isbn={978-3-319-18425-8},
  doi={10.1007/978-3-319-18425-8_3},
- keywords={}, 
+ keywords={Internet of Things Architectures, Other},
+ keywords={Human Computer Interaction},
  url={https://arxiv.org/pdf/1503.01895.pdf},
  abstract = {This study explores the use of natural language to give instructions that might be interpreted by Internet of Things (IoT) devices in a domestic 'smart home' environment. We start from the proposition that reminders can be considered as a type of end-user programming, in which the executed actions might be performed either by an automated agent or by the author of the reminder. We conducted an experiment in which people wrote sticky notes specifying future actions in their home. In different conditions, these notes were addressed to themselves, to others, or to a computer agent.We analyse the linguistic features and strategies that are used to achieve these tasks, including the use of graphical resources as an informal visual language. The findings provide a basis for design guidance related to end-user development for the Internet of Things.},
 }
@@ -520,7 +546,7 @@ author={Perera, Charith and Aghaee, Saeed and Blackwell, Alan},
  year={2014}, 
  pages={135-140}, 
  abstract={Internet of Things (IoT) has been widely discussed over the past few years in technology point of view. However, the social aspects of IoT are seldom studied to date. In this paper, we discuss the IoT in social point of view. Specifically, we examine the strategies to increase the adoption of IoT in a sustainable manner. Such discussion is essential in today's context where adoption of IoT solutions by non-technical community is slow. Specially, large number of IoT solutions making their way into the market every day. We propose an trading-based value creation model based on sensing as a service paradigm in order to fuel the adoption of IoT. We discuss the value creation and its impact towards the society especially to households and their occupants. We also present results of two different surveys we conducted in order to examine the potential acceptance of the proposed model among the general public.}, 
- keywords={}, 
+ keywords={Sensing as a Service},
  doi={10.1109/WF-IoT.2014.6803135}, 
  month={March},
  url = {https://arxiv.org/pdf/1401.6720.pdf}, 
@@ -535,7 +561,8 @@ author={Perera, Charith and Aghaee, Saeed and Blackwell, Alan},
  year={2014}, 
  pages={94-99}, 
  abstract={Internet of Things (IoT) will comprise billions of devices that can sense, communicate, compute and potentially actuate. The data generated by the Internet of Things are valuable and have the potential to drive innovative and novel applications. The data streams coming from these devices will challenge the traditional approaches to data management and contribute to the emerging paradigm of big data. One of the most challenging tasks before collecting and processing data from these devices (e.g. sensors) is discovering and configuring the sensors and the associated data streams. In this paper, we propose a tool called SmartLink that can be used to discover and configure sensors. Specifically, SmartLink, is capable of discovering sensors deployed in a particular location despite their heterogeneity (e.g. different communication protocols, communication sequences, capabilities). SmartLink establishes the direct communication between the sensor hardware and cloud-based IoT middleware. We address the challenge of heterogeneity using a plugin architecture. Our prototype tool is developed on the Android platform. We evaluate the significance of our approach by discovering and configuring 52 different types of Libelium sensors.}, 
- keywords={}, 
+ keywords={Internet of Things Architectures, Fog Computing, Sensing as a Service},
+ keywords={Search and Discovery}, 
  doi = {10.1109/WF-IoT.2014.6803127}, 
  month = {March},
  url = {https://arxiv.org/pdf/1312.6721.pdf},
@@ -551,7 +578,7 @@ author={Perera, Charith and Aghaee, Saeed and Blackwell, Alan},
  month={Oct}, 
  pages={77-86}, 
  abstract={Mobile devices are rapidly becoming the primary computing device in people's lives. Application delivery platforms like Google Play, Apple App Store have transformed mobile phones into intelligent computing devices by the means of applications that can be downloaded and installed instantly. Many of these applications take advantage of the plethora of sensors installed on the mobile device to deliver enhanced user experience. The sensors on the smartphone provide the opportunity to develop innovative mobile opportunistic sensing applications in many sectors including healthcare, environmental monitoring and transportation. In this paper, we present a collaborative mobile sensing framework namely Mobile Sensor Data EngiNe (MOSDEN) that can operate on smartphones capturing and sharing sensed data between multiple distributed applications and users. MOSDEN follows a component-based design philosophy promoting reuse for easy and quick opportunistic sensing application deployments. MOSDEN separates the application-specific processing from the sensing, storing and sharing. MOSDEN is scalable and requires minimal development effort from the application developer. We have implemented our framework on Android-based mobile platforms and evaluate its performance to validate the feasibility and efficiency of MOSDEN to operate collaboratively in mobile opportunistic sensing applications. Experimental outcomes and lessons learnt conclude the paper.}, 
- keywords={},
+ keywords={Internet of Things Architectures, Fog Computing, Sensing as a Service},
  url = {https://arxiv.org/pdf/1310.4052.pdf}
 }
 
